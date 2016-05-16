@@ -23,8 +23,8 @@
             <a href="#"><h1>Feedr</h1></a>
             <nav>
               <ul>
-                <li><a href="#">News Source: <span>Mashable</span></a>
-                  <ul>
+                <li><a href="#">News Source: <span id="currentSource">Mashable</span></a>
+                  <ul id="selectSource">
                       <li><a href="#">Mashable</a></li>
                       <li><a href="#">Reddit</a></li>
                       <li><a href="#">Digg</a></li>
@@ -55,11 +55,16 @@
               <img src="images/article_placeholder_1.jpg" alt="" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
+                <a href="#"><h3>Test Ken's Title</h3></a>
                 <h6>Lifestyle</h6>
             </section>
+			<!-- $('.impressions)[0]
+			in a console in Google Chrome, you can type in $('.impressions) and it will return the array of all elements with the class of "impressions".  Since there are 4 elements in the array, if you type $('.impressions')[0], it will return the first element in the array of the class="impressions"
+			To set the value, you could do something like this:
+			$($('.impressions)[0]).html("test2");
+			-->
             <section class="impressions">
-              526
+              624
             </section>
             <div class="clearfix"></div>
           </article>
